@@ -223,7 +223,7 @@ function Index() {
           <button className="bg-Lime rounded-full p-4 hover:cursor-pointer hover:bg-Lime/50 font-PlusJakartaSans-Medium">
             <div className="flex gap-4 justify-center">
               <img
-                src="/assets/images/icon-calculator.svg"
+                src="./images/icon-calculator.svg"
                 alt="calculator-icon"
               />
               <p>Calculate Repayments</p>
