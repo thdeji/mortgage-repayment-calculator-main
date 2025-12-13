@@ -239,7 +239,7 @@ function Index() {
         {!calculateRepayments && (
           <div className="flex flex-col self-center">
             <img
-              src="/assets/images/illustration-empty.svg"
+              src="./images/illustration-empty.svg"
               alt=""
               className="h-50"
             />
