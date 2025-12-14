@@ -1,6 +1,6 @@
 import { useState } from "react";
-import illustrationEmptyImage from "/";
-import iconCalculator from "./images/icon-calculator.svg";
+import illustrationEmptyImage from "./illustration-empty.svg";
+import iconCalculator from "./icon-calculator.svg";
 
 function Index() {
   const [mortgageInfo, setMortgageInfo] = useState({
