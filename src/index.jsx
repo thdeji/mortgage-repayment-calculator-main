@@ -54,7 +54,7 @@ function Index() {
   return (
     <div className="flex flex-col md:flex-row gap-4">
       {/* mortgage form section */}
-      <div className="mx-4 p-10 md:flex-1 ">
+      <div className="m-1 md:mx-4 p-10 md:flex-1 ">
         <div className="flex flex-col md:flex-row md:justify-between mb-4">
           <p className="font-PlusJakartaSans-Bold text-xl text-Slate900">
             Mortgage Calculator
@@ -259,7 +259,7 @@ function Index() {
               provided. To adjust the results, edit the form and click
               “calculate repayments” again.
             </p>
-            <div className="bg-black/20 flex flex-col gap-4 p-10 rounded-2xl border-t-4 border-Lime">
+            <div className="bg-black/20 mt-5 flex flex-col gap-4 p-10 rounded-2xl border-t-4 border-Lime">
               <h1 className="font-PlusJakartaSans-VariableFont_wght text-Slate300">
                 Your monthly repayments
               </h1>
