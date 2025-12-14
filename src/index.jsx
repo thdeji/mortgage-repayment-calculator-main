@@ -1,4 +1,6 @@
 import { useState } from "react";
+import illustrationEmptyImage from "./images/illustration-empty.svg";
+import iconCalculator from "./images/icon-calculator.svg";
 
 function Index() {
   const [mortgageInfo, setMortgageInfo] = useState({
@@ -222,10 +224,7 @@ function Index() {
           {/* Calculate Repayments button */}
           <button className="bg-Lime rounded-full p-4 hover:cursor-pointer hover:bg-Lime/50 font-PlusJakartaSans-Medium">
             <div className="flex gap-4 justify-center">
-              <img
-                src="./images/icon-calculator.svg"
-                alt="calculator-icon"
-              />
+              <img src={iconCalculator} alt="calculator-icon" />
               <p>Calculate Repayments</p>
             </div>
           </button>
@@ -238,11 +237,7 @@ function Index() {
         {/* this shows when form is empty */}
         {!calculateRepayments && (
           <div className="flex flex-col self-center">
-            <img
-              src="./images/illustration-empty.svg"
-              alt=""
-              className="h-50"
-            />
+            <img src={illustrationEmptyImage} alt="" className="h-50" />
             <div className="text-center font-PlusJakartaSans-Medium text-white">
               <h3 className="text-xl mb-4">Results shown here</h3>
               <p className="text-Slate300">
