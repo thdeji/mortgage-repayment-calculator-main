@@ -1,5 +1,5 @@
 import { useState } from "react";
-import illustrationEmptyImage from "./images/illustration-empty.svg";
+import illustrationEmptyImage from "/";
 import iconCalculator from "./images/icon-calculator.svg";
 
 function Index() {
